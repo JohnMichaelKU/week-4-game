@@ -2,49 +2,49 @@
 <html>
 <head>
 	<title>Crystal Collector</title>
-	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<h1 class="col-lg-12 text-center">Crystal Collector</h1>
+			<h1 class="col-md-3 text-center backgroundTitle">Crystal Collector</h1>
+			<h4 class="col-md-9 text-left instructions">You will be given a random number at the start of the game. There will be four crystals and clicking each one will add a specific amount to your total score. You win by matching your total score to the random number given. If you go over you lose. The value of each crystal is hidden from you until you click on it and each game the values of the crystals will change.</h4>
 		</div>
+		<br class="divider">
 		<div class="row">
-			<h4 class="col-lg-12 text-center">You will be given a random number at the start of the game. There will be four crystals and clicking each one will add a specific amount to your total score. You win by matching your total score to the random number given. If you go over you lose. The value of each crystal is hidden from you until you click on it and each game the values of the crystals will change.</h4>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<h3 class="col-md-12 text-center">Target Score</h3>
-				<div id="targetScore" class="col-md-12 text-center">
-					<p>Place Holder</p>
+			<div class="col-sm-6 targetScore">
+				<h2 class="col-sm-12 text-center">Target Score</h2>
+				<div class="col-sm-12 text-center">
+					<h3 id="targetScore">Place Holder</h3>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<h3 class="col-md-12 text-center">Wins</h3>
-				<div id="winsCounter" class="col-md-12 text-center">
-					<p>0</p>
+			<div class="col-sm-3">
+				<h2 class="col-sm-12 text-center">Wins</h2>
+				<div class="col-sm-12 text-center">
+					<h3 id="winsCounter">0</h3>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<h3 class="col-md-12 text-center">Losses</h3>
-				<div id="lossesCounter" class="col-md-12 text-center">
-					<p>0</p>
+			<div class="col-sm-3">
+				<h2 class="col-sm-12 text-center">Losses</h2>
+				<div class="col-sm-12 text-center">
+					<h3 id="lossesCounter">0</h3>
 				</div>
 			</div>
 		</div>
+		<br>
 		<div class="row">
-			<div class="col-md-6">
-				<h3 class="col-md-12 text-center">Current Score</h3>
-				<div id="currentScore" class="col-md-12 text-center">
-					<p>0</p>
+			<div class="col-sm-6 currentScore">
+				<h2 class="col-sm-12 text-center">Current Score</h2>
+				<div  class="col-sm-12 text-center">
+					<h3 id="currentScore">0</h3>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<h3 class="col-md-12 text-center">Crystals</h3>
-				<div id="crystalRow" class="col-md-12 crystalRow">
+			<div class="col-sm-6">
+				<h2 class="col-sm-12 text-center">Crystals</h2>
+				<div id="crystalRow" class="col-sm-12 crystalRow">
 					<img id="ruby" src="assets/images/Ruby.png">
 					<img id="saphire" src="assets/images/Saphire.png">
 					<img id="emerald" src="assets/images/Emerald.png">

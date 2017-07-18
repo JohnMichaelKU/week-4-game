@@ -1,5 +1,34 @@
+ body {
+ 	background-color: #FAFBFB;
+ }
+
 .crystalRow img {
 	width: 100px;
 	height: 100px;
 	padding: 10px;
 }
+
+.backgroundTitle {
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #21295C;
+	color: #FAFBFB;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+}
+.instructions {
+ 	color: #21295C;
+ }
+
+ h2 {
+ 	border-bottom: 1px solid #21295C;
+ 	color: #21295C;
+ }
+
+ h3 {
+ 	color: #21295C;
+ }
+
+ img {
+ 	cursor: pointer;
+ }
